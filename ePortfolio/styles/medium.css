@@ -6,7 +6,7 @@
     }
 
     #banner {
-        border-bottom: 4px solid #a2413d;
+        border-bottom: 4px solid #3d41a2;
     }
 
     /* hamburger button does not need to be shown */
@@ -24,7 +24,7 @@
     }
 
     .resume {
-        border-bottom: 1px solid #a2413d;
+        border-bottom: 1px solid #3d41a2;
         padding: 0;
         margin: 0;
         width: 100%;
@@ -38,10 +38,10 @@
 
     /**********NAVIGATION************/
     nav.responsive, nav.normal {
-        background-color: #dfc6b9;
+        background-color: #b9c6df;
         display: flex;
         position: static;
-        border-bottom: 8px solid #a2413d;
+        border-bottom: 8px solid #3d41a2;
     }
 
     nav > ul {
@@ -58,19 +58,19 @@
     }
 
         nav ul li a {
-            color: #844a48;
+            color: #484a84;
             padding: 0;
         }
 
 
         nav ul li.active a {
             text-decoration: underline;
-            color: #a2413d;
+            color: #3d41a2;
             padding: 0;
         }
 
         nav ul li a:hover {
-            color: #e9ded2;
+            color: #d2dee9;
         }
 
     /*****HEADINGS/LISTS/PARAGRAPHS*****/
@@ -92,7 +92,7 @@
     .portfolio li {
         width: 40%;
         margin: 4% 4% 4% 4%;
-        border: 2px solid #dfc6b9;
+        border: 2px solid #b9c6df;
         display: inline-block;
         vertical-align: top;
         height: 100%;

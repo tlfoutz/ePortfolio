@@ -10,13 +10,13 @@
 
 html {
     font-size: 12px;
-    color: #2d160c;
+    color: #0C162D;
 }
 
 body {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
-    background-color: #e9ded2;
+    background-color: #d2dee9;
     margin: 0;
 }
 
@@ -28,7 +28,7 @@ header, nav, main, footer {
 }
 
 header {
-    background-color: #a2413d;
+    background-color: #3d41a2;
     width: 100%;
 }
 
@@ -45,7 +45,7 @@ header img {
 }
 
 #banner {
-    border-bottom: 10px solid #a2413d;
+    border-bottom: 10px solid #3d41a2;
 }
 
 main {
@@ -63,7 +63,7 @@ button {
     background-color: transparent;
     z-index: 2;
     font-size: 2rem;
-    color: #e9ded2;
+    color: #d2dee9;
 }
 
 :focus {
@@ -75,7 +75,7 @@ nav.normal {
 }
 
 nav.responsive {
-    background-color: #dfc6b9;
+    background-color: #b9c6df;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -101,16 +101,16 @@ nav.responsive ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #844a48;
+    color: #484a84;
 }
 
 nav ul li.active a {
     text-decoration: underline;
-    color: #a2413d;
+    color: #3d41a2;
 }
 
 nav ul li a:hover {
-    color: #e9ded2;
+    color: #d2dee9;
 }
 
 /*****HEADINGS/LISTS/PARAGRAPHS*****/
@@ -121,11 +121,11 @@ h1 {
 }
 
 h2 {
-    color: #a2413d;
+    color: #3d41a2;
 }
 
 .resume {
-    border-bottom: 1px solid #a2413d;
+    border-bottom: 1px solid #3d41a2;
     padding-top: 3%;
 }
 
@@ -157,7 +157,7 @@ li {
     list-style-type: none;
     margin: 8% 0 8% 0;
     padding: 5% 0 3% 0;
-    border: 2px solid #dfc6b9;
+    border: 2px solid #b9c6df;
 }
 
 
@@ -171,14 +171,14 @@ a img {
 .portimage {
     width: 98%;
     margin: 3% 1%;
-    border: 2px solid #dfc6b9;
+    border: 2px solid #b9c6df;
 }
 
 /**********FOOTER************/
 
 footer {
     color: #ffffff;
-    background-color: #a2413d;
+    background-color: #3d41a2;
     padding: 2% 3%;
 }
 
@@ -193,12 +193,12 @@ footer {
 /**********FORMS/LINKS************/
 
 .portlink {
-    color: #2d160c;
+    color: #0C162D;
     text-decoration: none;
     font-size: 1.75rem;
 }
 
 a:hover.portlink {
-    color: #a2413d;
+    color: #3d41a2;
     text-decoration: underline;
 }
