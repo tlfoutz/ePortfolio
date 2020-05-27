@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Travis Foutz">
+        <meta name="description" content="An ePortfolio website for Travis Foutz.">
+        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Cambo|Raleway" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+        <title>Travis Foutz - Resume</title>
+    </head>
+    <body>
+        <header>
+            <picture>
+                <source media="(min-width: 64em)" srcset="images/photo1000.jpg">
+                <source media="(min-width: 37.5em)" srcset="images/photo800.jpg">
+                <img src="images/photo800.jpg" alt="Photo of Travis Foutz" id="banner">
+            </picture>
+            <button class="responsive" onclick="togglemenu()">&#9776;</button>
+            <a href="index.html"><div><img src="../images/offwhite.png" alt="TLF Logo" id="logo"></div></a>
+        </header>
+        <nav id="hamburger" class="normal">
+            <ul id="mainmenu">
+                <li><a href="index.html">Home</a></li>
+                <li class='active'><a href="resume.html">Resume</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>
+                Resume: <br />
+                Travis Foutz
+            </h1>
+
+            <h2 class="resume">Technologies</h2>
+            <div class="container">
+                <div class="columns">
+                    <h3>Programming Languages</h3>
+                    <ul class="resumelist">
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3>Development Tools</h3>
+                    <ul class="resumelist">
+                        <li>?</li>
+                        <li>IntelliJ</li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3>Web Development</h3>
+                    <ul class="resumelist">
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2 class="resume">Special Abilities</h2>
+            <div class="container">
+                <div class="columns">
+                    <h3>Leadership Skills</h3>
+                    <ul class="resumelist">
+                        <li>Decision making skills</li>
+                        <li>Quality mentoring skills</li>
+                        <li>Team development</li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3>Interpersonal Skills?</h3>
+                    <ul class="resumelist">
+                        <li>?</li>
+                    </ul>
+                </div>
+                <div class="columns">
+                    <h3>Personal Traits</h3>
+                    <ul class="resumelist">
+                        <li>Creative</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2 class="resume">Education</h2>
+            <div class="container">
+                <div class="columns">
+                    <h3>B.S. Software Engineering</h3>
+                    <p class="education">Brigham Young University <br /> Rexburg, Idaho <br /> December 2021</p>
+                </div>
+            </div>
+
+            <h2 class="resume">Recent Work History</h2>
+            <div class="container">
+                <div class="work">
+                    <h3>? <br /> Location: 2017 to 2018</h3>
+                    <ul class="resumelist">
+                        <li>?</li>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <p class="footer-bar">&copy;2020 Travis Foutz | All Rights Reserved | Tuesday, May 26, 2020 </p>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/wayfinding.js"></script>
+    </body>
+
+</html>

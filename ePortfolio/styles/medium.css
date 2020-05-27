@@ -1,0 +1,110 @@
+/* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+@media only screen and (min-width: 37.5em) {
+
+    html {
+        font-size: 14px;
+    }
+
+    #banner {
+        border-bottom: 4px solid #a2413d;
+    }
+
+    /* hamburger button does not need to be shown */
+    button {
+        display: none;
+    }
+
+    .container {
+        width: 85%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .resume {
+        border-bottom: 1px solid #a2413d;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .work {
+        width: 50%;
+        padding-right: 5%;
+    }
+
+
+    /**********NAVIGATION************/
+    nav.responsive, nav.normal {
+        background-color: #dfc6b9;
+        display: flex;
+        position: static;
+        border-bottom: 8px solid #a2413d;
+    }
+
+    nav > ul {
+        width: 100%;
+        margin: 0 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        padding: 1% 2%;
+        font-size: 1.25rem;
+    }
+
+        nav ul li a {
+            color: #844a48;
+            padding: 0;
+        }
+
+
+        nav ul li.active a {
+            text-decoration: underline;
+            color: #a2413d;
+            padding: 0;
+        }
+
+        nav ul li a:hover {
+            color: #e9ded2;
+        }
+
+    /*****HEADINGS/LISTS/PARAGRAPHS*****/
+
+    h1 {
+        margin: 3% 0;
+    }
+
+    .education {
+        padding-left: 0rem;
+    }
+
+    ul {
+        list-style-position: inside;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .portfolio li {
+        width: 40%;
+        margin: 4% 4% 4% 4%;
+        border: 2px solid #dfc6b9;
+        display: inline-block;
+        vertical-align: top;
+        height: 100%;
+    }
+
+    /**********IMAGES************/
+
+
+
+    /**********FOOTER************/
+
+    footer {
+        padding: 1.5% 3%;
+    }
+}

@@ -1,0 +1,204 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+}
+/* This wildcard applies to all elements ensuring a box layout model */
+
+
+/*******LARGE ELEMENTS***********/
+
+html {
+    font-size: 12px;
+    color: #2d160c;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    background-color: #e9ded2;
+    margin: 0;
+}
+
+header, nav, main, footer {
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: floralwhite;
+}
+
+header {
+    background-color: #a2413d;
+    width: 100%;
+}
+
+#logo {
+    width: 40%;
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+header img {
+    width: 100%;
+    margin: 0;
+}
+
+#banner {
+    border-bottom: 10px solid #a2413d;
+}
+
+main {
+    padding: .75rem 2.5rem 3rem 2.5rem;
+}
+
+/**********NAVIGATION************/
+
+button {
+    border: none;
+    width: 10%;
+    position: absolute;
+    top: 2.5%;
+    right: 2.5%;
+    background-color: transparent;
+    z-index: 2;
+    font-size: 2rem;
+    color: #e9ded2;
+}
+
+:focus {
+    outline: none;
+}
+
+nav.normal {
+    display: none;
+}
+
+nav.responsive {
+    background-color: #dfc6b9;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        padding: 1rem 6rem 1rem 1rem;
+        font-size: 1.5rem;
+    }
+
+nav.responsive ul li {
+    text-align: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #844a48;
+}
+
+nav ul li.active a {
+    text-decoration: underline;
+    color: #a2413d;
+}
+
+nav ul li a:hover {
+    color: #e9ded2;
+}
+
+/*****HEADINGS/LISTS/PARAGRAPHS*****/
+
+h1 {
+    margin: 5% 0 5% 0;
+    padding-bottom: 1.5%;
+}
+
+h2 {
+    color: #a2413d;
+}
+
+.resume {
+    border-bottom: 1px solid #a2413d;
+    padding-top: 3%;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.education {
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+
+li {
+    line-height: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+    li a p {
+        width: 90%;
+        margin: 0 5%;
+        text-align: center;
+    }
+
+.resumelist li {
+    padding: 0;
+}
+
+.portfolio li {
+    list-style-type: none;
+    margin: 8% 0 8% 0;
+    padding: 5% 0 3% 0;
+    border: 2px solid #dfc6b9;
+}
+
+
+/**********IMAGES************/
+
+a img {
+    max-width: 80%;
+    margin: 0 10%;
+}
+
+.portimage {
+    width: 98%;
+    margin: 3% 1%;
+    border: 2px solid #dfc6b9;
+}
+
+/**********FOOTER************/
+
+footer {
+    color: #ffffff;
+    background-color: #a2413d;
+    padding: 2% 3%;
+}
+
+    footer p {
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+/**********FORMS/LINKS************/
+
+.portlink {
+    color: #2d160c;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+a:hover.portlink {
+    color: #a2413d;
+    text-decoration: underline;
+}
