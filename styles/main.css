@@ -24,7 +24,7 @@ header, nav, main, footer {
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
     max-width: 1000px;
     margin: 0 auto;
-    background-color: floralwhite;
+    background-color: skyblue;
 }
 
 header {
