@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Travis Foutz">
         <meta name="description" content="An ePortfolio website for Travis Foutz.">
-        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <link rel="icon" type="image/png" href="images/favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Cambo|Raleway" rel="stylesheet">
         <link href="styles/normalize.css" rel="stylesheet">
         <link href="styles/main.css" rel="stylesheet">
@@ -17,7 +17,7 @@
         <header>
             <picture>
                 <source media="(min-width: 64em)" srcset="images/TFnamelogo1000.jpg">
-                <source media="(min-width: 37.5em)" srcset="images/TFnamelogo800.jpg">
+                <source media="(min-width: 1em)" srcset="images/TFnamelogo800.jpg">
                 <img src="images/photo800.jpg" alt="Travis Foutz Name Logo" id="banner">
             </picture>
             <button class="responsive" onclick="togglemenu()">&#9776;</button>
@@ -32,15 +32,14 @@
         </nav>
         <main>
             <h1>
-                Resume: <br>
-                Travis Foutz
+                Resume:<br>Travis Foutz
             </h1>
 
             <h2 class="resume">Education</h2>
             <div class="container">
                 <div class="columns">
                     <h3>B.S. Software Engineering</h3>
-                    <p class="education">Brigham Young University <br /> Rexburg, Idaho <br /> December 2022</p>
+                    <p class="education">Brigham Young University <br> Rexburg, Idaho <br> December 2022</p>
                 </div>
             </div>
 
@@ -71,7 +70,7 @@
             </div>
 
             <h2 class="resume">Work Experience</h2>
-            <div class="container">
+            <div id="workcontainer" class="container">
                 <div class="work">
                     <h3>
                         Costuming Host (Disney College Program)<br>
@@ -89,10 +88,10 @@
             </div>
         </main>
         <footer>
-            <p class="footer-bar">&copy;2020 Travis Foutz | All Rights Reserved | Tuesday, May 26, 2020 </p>
+            <p class="footer-bar">&copy;2020 Travis Foutz | All Rights Reserved | <span id="date"></span></p>
         </footer>
         <script src="scripts/hamburger.js"></script>
+        <script src="scripts/date.js"></script>
         <script src="scripts/wayfinding.js"></script>
     </body>
-
 </html>

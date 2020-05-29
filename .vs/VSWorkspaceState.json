@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ePortfolio",
-    "\\ePortfolio\\portfolio",
-    "\\ePortfolio\\styles"
+    "\\images",
+    "\\portfolio",
+    "\\styles"
   ],
-  "SelectedNode": "\\ePortfolio\\styles\\medium.css",
+  "SelectedNode": "\\portfolio\\monthlybudget.html",
   "PreviewInSolutionExplorer": false
 }

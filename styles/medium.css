@@ -15,12 +15,16 @@
     }
 
     .container {
-        width: 85%;
+        width: 66%;
         margin-bottom: 3%;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
+    }
+
+    #workcontainer {
+        width: 100%;
     }
 
     .resume {
@@ -31,7 +35,7 @@
     }
 
     .work {
-        /* width: 50%; */
+        width: 100%;
         padding-right: 5%;
     }
 

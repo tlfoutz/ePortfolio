@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Travis Foutz">
+    <meta name="description" content="An ePortfolio website for Travis Foutz.">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cambo|Raleway" rel="stylesheet">
+    <link href="../styles/normalize.css" rel="stylesheet">
+    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../styles/medium.css" rel="stylesheet">
+    <link href="../styles/large.css" rel="stylesheet">
+    <title>Travis Foutz - Portfolio</title>
+</head>
+<body>
+    <header>
+        <picture>
+            <source media="(min-width: 64em)" srcset="../images/TFnamelogo1000.jpg">
+            <source media="(min-width: 1em)" srcset="../images/TFnamelogo800.jpg">
+            <img src="../images/photo800.jpg" alt="Travis Foutz Name Logo" id="banner">
+        </picture>
+        <button class="responsive" onclick="togglemenu()">&#9776;</button>
+    </header>
+    <nav id="hamburger" class="normal">
+        <ul id="mainmenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../resume.html">Resume</a></li>
+            <li class='active'><a href="../portfolio.html">Portfolio</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <a href="../portfolio.html" class="portlink"><p>&crarr; Back to ePorfolio</p></a>
+        <h1>
+            Diet Support:<br>Mobile Application for Tracking Food Intake
+        </h1>
+
+        <p>The goal of the Diet Support mobile app was to keep track of nutrional intake from food so the user can see how close they are following a selected diet. After entering their personal information, they could enter a food item for what they ate, then check to see their daily and weekly percentages of how close they are to meeting their dietary goals.</p>
+
+        <p>This app was developed as a team with other class members of my BYUI CS 246 Software Design and Development course. We worked together on it throughout the semester. We developed in Java using Android Studio. As we progessed, we implemented the different principles of design and development, with the MVP model as the most notable incorporated principle.</p>
+
+        <p>My main responsiblity was implementing the presenter classes, which inevitably resulted in assistancing with the model and view classes as well. With my knowledge of the app as a whole, I was able to inform the rest of the team during our weekly meetings on what still needed to be completed and by what date in order to meet our production deadline.</p>
+
+        <img src="../images/dietsupport1.jpg" alt="Diet Support Screenshot 1" class="portimage">
+        <img src="../images/dietsupport2.jpg" alt="Diet Support Screenshot 2" class="portimage">
+        <img src="../images/dietsupport3.jpg" alt="Diet Support Screenshot 3" class="portimage">
+
+    </main>
+    <footer>
+        <p class="footer-bar">&copy;2020 Travis Foutz | All Rights Reserved | <span id="date"></span></p>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/date.js"></script>
+</body>
+</html>

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Travis Foutz">
         <meta name="description" content="An ePortfolio website for Travis Foutz.">
-        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <link rel="icon" type="image/png" href="images/favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Cambo|Raleway" rel="stylesheet">
         <link href="styles/normalize.css" rel="stylesheet">
         <link href="styles/main.css" rel="stylesheet">
@@ -17,7 +17,7 @@
         <header>
             <picture>
                 <source media="(min-width: 64em)" srcset="images/TFnamelogo1000.jpg">
-                <source media="(min-width: 37.5em)" srcset="images/TFnamelogo800.jpg">
+                <source media="(min-width: 1em)" srcset="images/TFnamelogo800.jpg">
                 <img src="images/photo800.jpg" alt="Travis Foutz Name Logo" id="banner">
             </picture>
             <button class="responsive" onclick="togglemenu()">&#9776;</button>
@@ -32,30 +32,36 @@
         </nav>
         <main>
             <h1>
-                ePortfolio: <br>
-                Travis Foutz
+                ePortfolio:<br>Travis Foutz
             </h1>
 
             <h2>Software Development</h2>
             <ul class="portfolio">
                 <li>
-                    <a href="portfolio/moonlander.html" class="portlink">
-                        <img src="images/moonlanderthumbnail.jpg" alt="A Moonlander Thumbnail">
-                        <p>Moonlander:<br /> A Basic Emulation</p>
+                    <a href="portfolio/monthlybudget.html" class="portlink">
+                        <img src="images/monthlybudgetthumbnail.jpg" alt="Monthly Budget Thumbnail">
+                        <p>Monthly Budget:<br>My First Program</p>
                     </a>
                 </li>
                 <li>
                     <a href="portfolio/asteroids.html" class="portlink">
-                        <img src="images/asteroidthumbnail.jpg" alt="An Asteroid Thumbnail">
-                        <p>Asteroids:<br /> A Retro Remake</p>
+                        <img src="images/asteroidthumbnail.jpg" alt="Asteroid Thumbnail">
+                        <p>Asteroids:<br>A Retro Remake</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="portfolio/dietsupport.html" class="portlink">
+                        <img src="images/dietsupportthumbnail.jpg" alt="Diet Support Thumbnail">
+                        <p>Diet Support:<br>Mobile Application for Tracking Food Intake</p>
                     </a>
                 </li>
             </ul>
 
         </main>
         <footer>
-            <p class="footer-bar">&copy;2020 Travis Foutz | All Rights Reserved | Tuesday, May 26, 2020 </p>
+            <p class="footer-bar">&copy;2020 Travis Foutz | All Rights Reserved | <span id="date"></span></p>
         </footer>
         <script src="scripts/hamburger.js"></script>
+        <script src="scripts/date.js"></script>
     </body>
 </html>
